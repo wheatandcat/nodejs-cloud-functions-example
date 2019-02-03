@@ -1,4 +1,4 @@
 ```
 npm run build
-gcloud functions deploy helloGET --runtime nodejs8 --trigger-http
+gcloud functions deploy helloGET --source dist --runtime nodejs8 --trigger-http
 ```
